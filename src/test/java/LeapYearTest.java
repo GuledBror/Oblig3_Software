@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class LeapYearTest {
 
     @Test
-    public void say_no_if_year_is_not_divisible_by_4() {
+    public void sayNoIfYearIsNotDivisibleBy4Test() {
          LeapYear years = new LeapYear();
 
         assertFalse(LeapYear.isLeapYear(3));
