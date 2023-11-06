@@ -17,7 +17,7 @@ public class LeapYearTest {
 
 
     @Test
-    public void say_yes_if_year_is_divisible_by_4() {
+    public void test_Say_yes_if_year_is_divisible_by_4() {
         LeapYear LeapYears = new LeapYear();
 
         assertTrue(LeapYear.isLeapYear(0));
@@ -27,7 +27,7 @@ public class LeapYearTest {
     }
 
     @Test
-    public void say_no_if_year_is_divisible_by_100_but_not_by_400() {
+    public void test_Say_no_if_year_is_divisible_by_100_but_not_by_400() {
         LeapYear LeapYears = new LeapYear();
 
         assertFalse(LeapYears.isLeapYear(100));
@@ -38,7 +38,7 @@ public class LeapYearTest {
     }
 
     @Test
-    public void say_yes_if_year_is_divisible_by_400() {
+    public void test_Say_yes_if_year_is_divisible_by_400() {
         LeapYear LeapYears = new LeapYear();
 
         assertTrue(LeapYears.isLeapYear(0));
