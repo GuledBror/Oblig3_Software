@@ -15,6 +15,7 @@ public class LeapYearTest {
         assertFalse(LeapYear.isLeapYear(1997));
     }
 
+
     @Test
     public void say_yes_if_year_is_divisible_by_4() {
         LeapYear LeapYears = new LeapYear();
